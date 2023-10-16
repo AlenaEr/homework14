@@ -3,7 +3,7 @@ let sum = 0;
 let count = 0;
 
 while (true) {
-    let input = prompt("Введіть число або 'n' для завершення:");
+    let input = +prompt("Введіть число або 'n' для завершення:");
 
     if (input === "n" || input === null) {
         break;
@@ -29,7 +29,7 @@ if (count === 0) {
 //2
 let numbers = [];
 while (true) {
-    let input = prompt("Введіть число або 'n' для завершення:");
+    let input = +prompt("Введіть число або 'n' для завершення:");
 
     if (input === "n" || input === null) {
         break;
